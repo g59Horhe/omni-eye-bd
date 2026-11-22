@@ -1,0 +1,17 @@
+train: train/images
+val: valid/images
+test: test/images
+nc: 5
+names:
+- 3_person_violation
+- footpath_violation
+- helmet_violation
+- license_plate
+- wrong_side_violation
+roboflow:
+  workspace: alifs-workspace-izm0f
+  project: tv_r
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/alifs-workspace-izm0f/tv_r/dataset/5
+path: /home/georgedessa/FYDP/TV_R-final

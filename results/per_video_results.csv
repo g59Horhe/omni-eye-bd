@@ -1,0 +1,6 @@
+split,video,images,mAP50_3_person_violation,mAP50_footpath_violation,mAP50_helmet_violation,mAP50_license_plate,mAP50_wrong_side_violation,n_3_person_violation,n_footpath_violation,n_helmet_violation,n_license_plate,n_wrong_side_violation
+test,13,80,0.000,0.993,0.507,0.936,,21,38,32,47,0
+test,15,29,0.947,,,,0.013,26,0,0,0,6
+test,7,137,,0.885,0.771,0.660,,0,45,116,57,0
+test,IMG_0054,67,,,0.600,0.733,,0,0,21,229,0
+test,IMG_1080,127,,,0.102,0.216,0.049,0,0,21,23,149
