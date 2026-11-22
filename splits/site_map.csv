@@ -1,41 +1,41 @@
-video,site_group,confidence,evidence
-1,A,high,"same view as GPS-tagged IMG_2810/IMG_2816 at 23.7736 N, 90.4257 E: yellow-railed median, green shop sign left, green overhead signs"
-2,A,high,"same view as GPS-tagged IMG_2810/IMG_2816 at 23.7736 N, 90.4257 E: yellow-railed median, green shop sign left, green overhead signs"
-3,A,high,"same view as GPS-tagged IMG_2810/IMG_2816 at 23.7736 N, 90.4257 E: yellow-railed median, green shop sign left, green overhead signs"
-4,A,high,"same view as GPS-tagged IMG_2810/IMG_2816 at 23.7736 N, 90.4257 E: yellow-railed median, green shop sign left, green overhead signs"
-5,A,high,"same view as GPS-tagged IMG_2810/IMG_2816 at 23.7736 N, 90.4257 E: yellow-railed median, green shop sign left, green overhead signs"
-6,A,high,"same view as GPS-tagged IMG_2810/IMG_2816 at 23.7736 N, 90.4257 E: yellow-railed median, green shop sign left, green overhead signs"
-7,A,high,"same view as GPS-tagged IMG_2810/IMG_2816 at 23.7736 N, 90.4257 E: yellow-railed median, green shop sign left, green overhead signs"
-8,A,high,"same view as GPS-tagged IMG_2810/IMG_2816 at 23.7736 N, 90.4257 E: yellow-railed median, green shop sign left, green overhead signs"
-9,A,high,"same view as GPS-tagged IMG_2810/IMG_2816 at 23.7736 N, 90.4257 E: yellow-railed median, green shop sign left, green overhead signs"
-10,A,high,"same view as GPS-tagged IMG_2810/IMG_2816 at 23.7736 N, 90.4257 E: yellow-railed median, green shop sign left, green overhead signs"
-11,A,high,"same view as GPS-tagged IMG_2810/IMG_2816 at 23.7736 N, 90.4257 E: yellow-railed median, green shop sign left, green overhead signs"
-12,A,high,"same view as GPS-tagged IMG_2810/IMG_2816 at 23.7736 N, 90.4257 E: yellow-railed median, green shop sign left, green overhead signs"
-13,A,high,"same view as GPS-tagged IMG_2810/IMG_2816 at 23.7736 N, 90.4257 E: yellow-railed median, green shop sign left, green overhead signs"
-14,A,high,"same view as GPS-tagged IMG_2810/IMG_2816 at 23.7736 N, 90.4257 E: yellow-railed median, green shop sign left, green overhead signs"
-IMG_1082,A,medium,"night; same three green overhead signs, brown hoardings and railed median as videos 7 and 10"
-15,B,high,"same view as GPS-tagged IMG_2834/IMG_2836 at 23.7652 N, 90.4216 E: tree line and railing right, shops left"
-16,B,high,"same view as GPS-tagged IMG_2834/IMG_2836 at 23.7652 N, 90.4216 E: tree line and railing right, shops left"
-17,B,high,"same view as GPS-tagged IMG_2834/IMG_2836 at 23.7652 N, 90.4216 E: tree line and railing right, shops left"
-18,B,high,"same view as GPS-tagged IMG_2834/IMG_2836 at 23.7652 N, 90.4216 E: tree line and railing right, shops left"
-19,B,high,"same view as GPS-tagged IMG_2834/IMG_2836 at 23.7652 N, 90.4216 E: tree line and railing right, shops left"
-20,B,high,"same view as GPS-tagged IMG_2834/IMG_2836 at 23.7652 N, 90.4216 E: tree line and railing right, shops left"
-21,B,high,"same view as GPS-tagged IMG_2834/IMG_2836 at 23.7652 N, 90.4216 E: tree line and railing right, shops left"
-22,B,high,"same view as GPS-tagged IMG_2834/IMG_2836 at 23.7652 N, 90.4216 E: tree line and railing right, shops left"
-23,B,high,"same view as GPS-tagged IMG_2834/IMG_2836 at 23.7652 N, 90.4216 E: tree line and railing right, shops left"
-IMG_0054,B,high,"original file GPS 23.7652 N, 90.4216 E (recorded 27 Feb 2026)"
-IMG_0055,B,high,"portrait, same red 'Call For Ad' hoarding and tree line as IMG_0054"
-IMG_0056,B,high,"portrait, same red 'Call For Ad' hoarding and tree line as IMG_0054"
-IMG_0057,B,high,"portrait, same red 'Call For Ad' hoarding and tree line as IMG_0054"
-IMG_1079,C,low,"night; matches neither A nor B; site unknown, grouped with other non-A/B footage"
-IMG_1080,C,low,"night; matches neither A nor B; site unknown, grouped with other non-A/B footage"
-IMG_1083,C,low,"night; matches neither A nor B; site unknown, grouped with other non-A/B footage"
-WhatsApp-Video-2026-06-08-at-6_48_17-PM,C,high,"tree-lined road, zebra crossing, wall right; re-shared WhatsApp batch"
-WhatsApp-Video-2026-06-08-at-6_48_21-PM,C,high,"tree-lined road, zebra crossing, wall right; re-shared WhatsApp batch"
-WhatsApp-Video-2026-06-08-at-6_48_22-PM,C,high,"tree-lined road, zebra crossing, wall right; re-shared WhatsApp batch"
-WhatsApp-Video-2026-06-08-at-7_14_56-PM,C,high,"tree-lined road, zebra crossing, wall right; re-shared WhatsApp batch"
-WhatsApp-Video-2026-06-08-at-7_14_57-PM,C,high,"tree-lined road, zebra crossing, wall right; re-shared WhatsApp batch"
-WhatsApp-Video-2026-06-08-at-7_14_57-PM-1-,C,high,"tree-lined road, zebra crossing, wall right; re-shared WhatsApp batch"
-WhatsApp-Video-2026-06-08-at-7_14_57-PM-2-,C,high,"tree-lined road, zebra crossing, wall right; re-shared WhatsApp batch"
-WhatsApp-Video-2026-06-08-at-7_14_57-PM-3-,C,low,"different street (high-rises, concrete median); kept with the other WhatsApp clips because the split already groups them as one re-shared batch"
-WhatsApp-Video-2026-06-08-at-7_14_58-PM,C,low,"different street (high-rises, concrete median); kept with the other WhatsApp clips because the split already groups them as one re-shared batch"
+video,site_group,footbridge
+1,A,Merul Badda
+2,A,Merul Badda
+3,A,Merul Badda
+4,A,Merul Badda
+5,A,Merul Badda
+6,A,Merul Badda
+7,A,Merul Badda
+8,A,Merul Badda
+9,A,Merul Badda
+10,A,Merul Badda
+11,A,Merul Badda
+12,A,Merul Badda
+13,A,Merul Badda
+14,A,Merul Badda
+IMG_1082,A,Merul Badda
+15,B,Rampura
+16,B,Rampura
+17,B,Rampura
+18,B,Rampura
+19,B,Rampura
+20,B,Rampura
+21,B,Rampura
+22,B,Rampura
+23,B,Rampura
+IMG_0054,B,Rampura
+IMG_0055,B,Rampura
+IMG_0056,B,Rampura
+IMG_0057,B,Rampura
+IMG_1079,C,Link Road
+IMG_1080,C,Moddho Badda
+IMG_1083,C,Moddho Badda
+WhatsApp-Video-2026-06-08-at-6_48_17-PM,C,Notunbazar
+WhatsApp-Video-2026-06-08-at-6_48_21-PM,C,Notunbazar
+WhatsApp-Video-2026-06-08-at-6_48_22-PM,C,Notunbazar
+WhatsApp-Video-2026-06-08-at-7_14_56-PM,C,Notunbazar
+WhatsApp-Video-2026-06-08-at-7_14_57-PM,C,Notunbazar
+WhatsApp-Video-2026-06-08-at-7_14_57-PM-1-,C,Notunbazar
+WhatsApp-Video-2026-06-08-at-7_14_57-PM-2-,C,Notunbazar
+WhatsApp-Video-2026-06-08-at-7_14_57-PM-3-,C,Notunbazar
+WhatsApp-Video-2026-06-08-at-7_14_58-PM,C,Notunbazar

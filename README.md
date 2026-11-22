@@ -37,7 +37,7 @@ Classes: `0` 3_person_violation, `1` footpath_violation, `2` helmet_violation,
 | `data.yaml` | Ultralytics dataset config for the final split. |
 | `data_filtered.yaml` | Same, for the copy with plates narrower than 16 px masked. |
 | `cv_folds.csv` | Five-fold video-level cross-validation: for each image, its video, group and split in each fold. `cv_folds_summary.md` gives per-fold counts. |
-| `site_map.csv` | Recording-site group (A, B or C) of every video, with confidence and the evidence used (GPS tags of the original recordings, matching landmarks). `site_summary.md` gives counts per group. |
+| `site_map.csv` | Footbridge and leave-one-site-out group (A, B or C) of every video. `site_summary.md` gives counts per group. |
 | `loso_folds.md` | Leave-one-site-out folds: the validation and held-out videos for each site group. |
 
 Split summary (instances per class, after the label audit):
@@ -53,8 +53,10 @@ IMG_1079. Test videos: 13, 15, 7, IMG_0054, IMG_1080.
 
 The fixed split separates *videos*, not *sites*: different clips from the same
 footbridge can appear in train and test. The leave-one-site-out folds (`site_map.csv`,
-`loso_folds.md`) test unseen locations; sites A and B are confirmed by GPS, and group C
-collects the remaining footage, most of it at night.
+`loso_folds.md`) test unseen locations: site A is the Merul Badda footbridge, site B
+Rampura, and group C combines the three smaller sites, Notunbazar (9 daytime clips),
+Moddho Badda (2 night clips) and Link Road (1 night clip). `results/c_subsets.csv`
+splits the group C result by footbridge.
 
 ---
 
@@ -93,6 +95,7 @@ Total added: **704 labels**, roughly a 40% increase over the original ~1,720.
 | `bootstrap_ci.md` | 95% bootstrap intervals (2,000 resamples of images or of whole videos) for each detector, and paired differences between detectors. |
 | `cv_results.csv`, `cv_rescored.md` | Five-fold cross-validation results per fold and per class. |
 | `loso_results.csv` | Leave-one-site-out results for each held-out site group. |
+| `c_subsets.csv` | The group C result split by footbridge: Notunbazar (day) and Link Road + Moddho Badda (night). |
 | `unmasked_eval.md` | Scores against `labels/` instead of `labels_masked/` (plate AP without masking). |
 
 All scores use Ultralytics 8.4.62. Newer versions score the same weights about 0.02
@@ -121,6 +124,7 @@ The curation pipeline, in the order it was applied.
 | `rescore_cv.py` | Re-scores the cross-validation models with Ultralytics 8.4.62. |
 | `eval_unmasked.py` | Scores the models against the unmasked labels. |
 | `run_loso.py` | Builds the leave-one-site-out folds from `site_map.csv`, trains and scores. |
+| `eval_c_subsets.py` | Splits the group C held-out result by footbridge (Notunbazar vs. the night clips). |
 
 Paths at the top of each script point at our working tree; change them to your own.
 
