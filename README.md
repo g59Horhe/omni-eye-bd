@@ -33,7 +33,7 @@ Classes: `0` 3_person_violation, `1` footpath_violation, `2` helmet_violation,
 | File | What it is |
 |---|---|
 | `split_groups.txt` | One row per source frame: `source_name`, `video`, `location_group`, `split`. 2,843 rows. This is the authoritative record of our train/valid/test assignment. |
-| `locations.txt` | Videos known to share a recording session, grouped so they cannot be split apart. Covers the nine re-shared WhatsApp clips. |
+| `locations.txt` | Videos known to share a recording session, grouped so they cannot be split apart. Covers the nine Notunbazar clips recorded in one session. |
 | `data.yaml` | Ultralytics dataset config for the final split. |
 | `data_filtered.yaml` | Same, for the copy with plates narrower than 16 px masked. |
 | `cv_folds.csv` | Five-fold video-level cross-validation: for each image, its video, group and split in each fold. `cv_folds_summary.md` gives per-fold counts. |
@@ -110,7 +110,7 @@ The curation pipeline, in the order it was applied.
 | Script | Purpose |
 |---|---|
 | `check_leakage.py` | Detects cross-split leakage: filename grouping plus a 256-bit dHash near-duplicate search, flip-aware. Saves side-by-side pairs. |
-| `resplit_by_group.py` | Leak-free, class-balanced re-split. Groups frames by source video, merges near-duplicate and re-shared clips, then searches assignments for the one closest to 70/15/15 per class. |
+| `resplit_by_group.py` | Leak-free, class-balanced re-split. Groups frames by source video, merges near-duplicate clips and clips from the same session, then searches assignments for the one closest to 70/15/15 per class. |
 | `plate_threshold_check.py` | Measures plate sizes in pixels at training resolution and saves crop grids per size bucket, to choose the readability threshold. |
 | `filter_small_plates.py` | Masks plates below the threshold: label removed **and** the region grey-filled, so the model is not taught that a visible plate is background. |
 | `audit_missing_plates.py` | Proposes plate boxes that overlap no existing label; writes candidates and confidence-sorted contact sheets for human review. |
