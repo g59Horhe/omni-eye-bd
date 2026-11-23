@@ -137,10 +137,11 @@ Requires `ultralytics`, `numpy`, `Pillow`, `pyyaml`.
 
 ## Images
 
-The frames are not redistributed. They are public-space footage containing
-identifiable faces and readable license plates. Researchers can request them from
-the authors under an agreement not to redistribute them. The annotations reference
-frames by name, so anyone with the frames can rebuild our exact splits and labels.
+The frames are not in this repository yet. They are public-space footage with
+identifiable faces and readable license plates, so they will be released here only
+with faces and license plates blurred. Until then, researchers can request them from
+the authors. The annotations reference frames by name, so the frames can be matched
+to our exact splits and labels.
 
 ## Citation
 
